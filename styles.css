@@ -1,0 +1,140 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {  
+    font-size: 14px;
+    font-weight: 400;
+    color: #17233D;
+    margin: 47px 0 179px 42px;
+}
+
+.link-header {
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+button {
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    width: 124px;
+    height: 51px;
+
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+div {
+    display: inline-block;
+}
+
+.logo-site {
+    margin-left: 121px;
+    width: 595.18px;
+    height: 500px;
+}
+
+section {
+    display: inline-block;
+    margin-left: 84px;
+}
+
+h1 {
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    color: #161A49;
+    width: 582px;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    margin-top: 47px;
+    margin-bottom: 55px;
+    width: 493px;
+}
+
+.link-main {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #6FBF44;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+
+    header {
+        
+        margin: 17px 15px 76px 284px;
+    }
+
+    button {
+        width: 91px;
+        height: 31px;
+        font-size: 12px;
+        
+    }
+
+    .link-header {
+        display: none;
+    }
+    
+    div {
+        display: block;
+        position: absolute;
+        top: 490px;
+        margin: 0 39px 22px;
+    }
+
+    .logo-site {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    section {
+        display: block;
+        margin-left: 0;
+    }
+
+    h1 {
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        
+        width: auto;
+        margin: 0 55px;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+
+        width: auto;
+        margin: 29px 43px 26px;
+    }
+
+    .link-main {
+    
+        font-size: 18px;
+        line-height: 27px;
+
+        display: block;
+        text-align: center;
+        margin: 0 139px;
+    }
+}
